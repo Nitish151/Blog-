@@ -8,6 +8,8 @@ const mongoose = require("mongoose");
 
 mongoose.connect('mongodb://127.0.0.1/blog')
 
+
+
 const blogSchema = mongoose.Schema({
   title: String,
   content: String
